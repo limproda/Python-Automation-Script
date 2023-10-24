@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+"""
+    This script will organize your download folder for you.
+    Make sure you create a .txt file named FolderPath.txt where you write the path of your Download Folder.
+"""
 import os, shutil
 
 extension_to_folder = {
